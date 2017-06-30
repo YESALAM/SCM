@@ -1,0 +1,34 @@
+<resources>
+    <string name="app_name">SCM</string>
+    <string name="enter_your_name">Enter Your Name</string>
+    <string name="enter_your_email">Enter Your Email</string>
+    <string name="enter_your_password">Enter Your Password</string>
+    <string name="parent">Parent</string>
+    <string name="student">Student</string>
+    <string name="image">Image</string>
+    <string name="sign_up">Sign Up</string>
+    <string name="clear">Clear</string>
+    <string name="login">Login</string>
+    <string name="title_activity_main">MainActivity</string>
+
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="hello_blank_fragment">Hello Student fragment</string>
+    <string name="upload_homework">Upload Homework</string>
+    <string name="uploadimage">uploadimage</string>
+    <string name="grade">Grade: </string>
+    <string name="status">Status: </string>
+    <string name="name">Name: </string>
+    <string name="user_name">User Name</string>
+    <string name="profile">Profile</string>
+    <string name="logout">Logout</string>
+    <string name="mohamed">Mohamed Abd El-Mtaal</string>
+    <string name="Alaa">Alaa Gamal El-deen Galal</string>
+    <string name="ahmed">Ahmed Adel Ibrahem</string>
+    <string name="mariam">Mariam Alaa Fareed</string>
+    <string name="rana">Rana Amr Mohamed abdulhamid</string>
+    <string name="app_desc">Description
+SCM is a website and mobile application that gives the users the opportunity to communicate what is happening in the school
+It allow students to reach everything online , it is also designed to satisfy  some purposes for users as it provides many facilities to them such as
+parents can be able to see deeper into what is happening in the school they are sending their child to everyday , it  let them know the daily details of their students affairs</string>
+    <string name="day">Day</string>
+</resources>

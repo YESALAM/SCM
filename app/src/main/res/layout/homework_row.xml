@@ -1,0 +1,94 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:orientation="vertical">
+
+
+    <android.support.v7.widget.CardView
+        android:id="@+id/cardView"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginBottom="4dp"
+        android:layout_marginLeft="4dp"
+        android:layout_marginRight="4dp"
+        android:layout_marginTop="4dp"
+        android:elevation="4dp"
+        android:focusable="true"
+        android:foreground="?selectableItemBackground"
+        tools:targetApi="lollipop">
+
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical"
+            android:paddingLeft="64dp">
+
+            <TextView
+                android:id="@+id/homeworkTitle"
+
+                style="@style/TextAppearance.AppCompat.Subhead"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:ellipsize="end"
+                android:fontFamily="sans-serif-medium"
+                android:maxLines="4"
+                android:paddingBottom="4dp"
+
+                android:paddingRight="16dp"
+                android:paddingTop="16dp"
+
+                />
+
+            <TextView
+                android:id="@+id/homeworkDescription"
+                style="@style/TextAppearance.AppCompat.Body1"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:ellipsize="end"
+                android:text="adsdaasddasdqwdasdwqeqweqwe213sda"
+                android:fontFamily="sans-serif-condensed"
+                android:paddingBottom="4dp"
+
+                android:paddingRight="16dp"
+                android:textColor="#6000" />
+
+
+            <TextView
+                android:id="@+id/homeworkName"
+                style="@style/TextAppearance.AppCompat.Body1"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:ellipsize="end"
+
+                android:fontFamily="sans-serif-condensed"
+                android:paddingBottom="4dp"
+
+                android:paddingRight="16dp"
+                android:textColor="#6000" />
+
+
+            <TextView
+                android:id="@+id/homeworkDate"
+                style="@style/TextAppearance.AppCompat.Body1"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:ellipsize="end"
+
+                android:fontFamily="sans-serif-condensed"
+                android:paddingBottom="4dp"
+
+                android:paddingRight="16dp"
+                android:textColor="#6000" />
+
+
+
+
+        </LinearLayout>
+
+
+    </android.support.v7.widget.CardView>
+
+</LinearLayout>
